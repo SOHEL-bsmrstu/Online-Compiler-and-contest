@@ -1,0 +1,73 @@
+
+.contest_schedule{
+    width: 60%;
+    margin-top: 2%;
+    margin-left: 20%;
+}
+.table{
+    display:table;
+    background-color: #E8E8FF;
+}
+
+.heading{
+    display: table-caption;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: #266DB1;
+    height: 10%;
+}
+.row{
+    display:table-row;
+}
+.col{
+    display: table-cell;
+    width:30%;
+    border: 1px solid #ff99ff;
+    padding-top: 3%;
+    text-align: center;
+    font-size: 22px;
+    color: blue;
+    height: 65px;
+
+}
+
+//History Table
+
+.contest_history{
+    margin-left: 20%;
+}
+.table_history{
+    display:table;
+    background-color: #E8E8FF;
+}
+
+.heading_history{
+    display: table-caption;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: #266DB1;
+    height: 10%;
+}
+.row_history{
+    display:table-row;
+}
+.col_history{
+    display: table-cell;
+    width:20%;
+    border: 1px solid #ff99ff;
+    padding-top: 1%;
+    text-align: center;
+    font-size: 20px;
+    color: blue;
+    height: 30px;
+
+}
+
+.col a{
+     text-decoration: none;
+}
+.col_history a{
+    text-decoration: none;
+}

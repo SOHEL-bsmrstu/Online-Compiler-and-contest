@@ -1,0 +1,42 @@
+.contest_name{
+    display: table-caption;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: #266DB1;
+    height: 10%;
+}
+
+//Table view
+.contest_submission_result{
+    width: 100%;
+    margin-top: 2%;
+    margin-left: 0%;
+}
+.table{
+    display:table;
+    background-color: #E8E8FF;
+     width: 70%;
+    margin-top: 2%;
+    margin-left: 15%;
+}
+
+.row{
+    display:table-row;
+}
+.col{
+    display: table-cell;
+    width:20%;
+    border: 1px solid #ff3333;
+    padding-top: 1%;
+    text-align: center;
+    font-size: 18px;
+    color: blue;
+    height: 30px;
+   
+
+}
+.col a{
+     text-decoration: none;
+     color: red;
+}

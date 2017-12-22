@@ -1,0 +1,244 @@
+/*Read More buuton effect*/
+.btn_about a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #E98A70;
+}
+.btn_about:hover{
+    background-color: #03375A;
+}
+
+.btn_massage:hover{
+    background-color: #A13777;
+}
+.btn_icon_read:hover{
+    background-color: #196355;
+}
+
+/*Event Div and Icon CSS */
+.IconEffect{
+    margin-left: 7%;
+    margin-top: 50px;
+    height: 400px;
+}
+.main_icon_design1 { 
+    float: left;
+    margin-left: 6%;
+    background-color:#35A2FC;
+    color: black;
+    width: 280px;
+    height: 400px;
+}
+.main_icon_design1 .icon_font{
+
+    margin-top: 25px;
+    margin-left: 32%;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    background-color: white;
+    font-size: 50px;
+    position: relative;
+    border-radius: 50%;
+    transition: .3s ease-in-out;
+    z-index: 1;
+}
+
+.main_icon_design1 .icon_font:before{
+    content :'';
+    top : 0;
+    right : 0;
+    position : absolute;
+    background : blue;
+    border-radius : 50%;
+    height : 100%;
+    width : 100%;
+    transform : scale(0);
+    transition: .3s ease-in-out;
+    z-index : -1;
+}
+
+.main_icon_design1:hover  .icon_font:before{
+    transform : scale(.9);	
+}
+
+/* Effect on Events*/
+
+.events a .events_name {
+    position: relative;
+    display: inline-block;
+    margin-top: 35px;
+    float: left;
+    margin-left: 8%;
+    text-align: center; 
+    padding-top: 1%; 
+    width: 15%; 
+    height: 170px; 
+    font-size: 35px; 
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.events a .events_name::after {
+    content: "";
+    border-radius: 5px;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.events a .events_name:hover {
+    -webkit-transform: scale(1.25, 1.25);
+    transform: scale(1.25, 1.25);
+}
+
+.events a .events_name:hover::after {
+    opacity: 1;
+}
+
+
+/* News view */
+
+.row{
+    display:table-row;
+}
+.col{
+    display: table-cell;
+    width:150px;
+    padding-top: 7%;
+    font-size: 20px;
+    
+   
+
+}
+.col2{
+    display: table-cell;
+    width:415px;
+    padding-top: 7%;
+    font-size: 30px;
+   
+
+}
+.col a{
+     text-decoration: none;
+}
+
+/*page Responsive */
+
+
+
+@media screen and (max-width: 1060px) {
+    .IconEffect{
+        width: 100%;
+    }
+    .main_icon_design1{
+        margin-left: 5%;
+        width: 200px;
+        height: 250px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .IconEffect{
+        width: 100%;
+    }
+    .main_icon_design1{
+        margin-left: 5%;
+        width: 200px;
+        height: 250px;
+    }
+
+}
+@media screen and (max-width: 875) {
+    .IconEffect{
+        width: 100%;
+    }
+    .main_icon_design1{
+        margin-left: 30%;
+        margin-top: 10px;
+        width: 100%;
+        width: 250px;
+        height: 300px;
+    }
+    .foot{
+        margin-top: 660px;
+
+    }
+
+}
+@media screen and (max-width: 725px) {
+    .IconEffect{
+        width: 100%;
+    }
+    .main_icon_design1{
+        margin-left: 30%;
+        margin-top: 10px;
+        width: 100%;
+        width: 250px;
+        height: 300px;
+    }
+    .foot{
+        margin-top: 660px;
+
+    }
+}
+@media screen and (max-width: 620px) {
+    .IconEffect{
+        width: 100%;
+    }
+    .main_icon_design1{
+        margin-left: 15%;
+        margin-top: 10px;
+        width: 100%;
+        width: 250px;
+        height: 300px;
+    }
+    .foot{
+        margin-top: 660px;
+
+    }
+
+}
+@media screen and (max-width: 445px) {
+    .IconEffect{
+        width: 100%;
+    }
+    .main_icon_design1{
+        margin-left: 15%;
+        margin-top: 10px;
+        width: 100%;
+        width: 250px;
+        height: 300px;
+    }
+    .foot{
+        margin-top: 660px;
+
+    }
+}
+@media screen and (max-width: 320px) {
+    .IconEffect{
+        width: 100%;
+    }
+    .main_icon_design1{
+        margin-left: 5%;
+        margin-top: 10px;
+        width: 100%;
+        width: 200px;
+        height: 250px;
+    }
+    .foot{
+        margin-top: 500px;
+
+    }
+}
